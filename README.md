@@ -3,6 +3,7 @@ arduinoでPCから送られてきた信号を自動でモールス信号に変�
 PCからはPythonを使って送信する。  
 
 ## 使い方
+`pip install -r requirements.txt` で必要なPythonのモジュールをインストールする。  
 ArduinoのGNDと10番のピンにLEDを繋ぐ。  
 `receiver/receiver.ino` をArduinoで実行する。  
 `morse_ transmitter.py` をPythonで実行する。  
