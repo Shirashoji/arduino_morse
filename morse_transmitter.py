@@ -62,12 +62,12 @@ def light(signal):
         if i == "・":
             print("・", end="")
             ser.write("1".encode())
-            time.sleep(0.5)
+            time.sleep(0.2)
             ser.write("0".encode())
         elif i == "－":
             print("－", end="")
             ser.write("1".encode())
-            time.sleep(0.2)
+            time.sleep(0.5)
             ser.write("0".encode())
         elif i == " ":
             print("　", end="")
