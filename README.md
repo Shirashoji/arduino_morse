@@ -3,5 +3,8 @@ arduinoでPCから送られてきた信号を自動でモールス信号に変�
 PCからはPythonを使って送信する。  
 
 ## 使い方
-GNDと10番のピンにLEDとかを繋いで、Arduinoのプログラムを動かす。  
-Python側のプログラムを実行して、英語を入力すると変換される。
+ArduinoのGNDと10番のピンにLEDを繋ぐ。  
+`receiver/receiver.ino` をArduinoで実行する。  
+`morse_ transmitter.py` をPythonで実行する。  
+Pythonを実行したら`TEXT: `と出てくるので、アルファベットでモールス信号にしたい文章を入力する。  
+LEDがモールス信号に変換され点灯する。
