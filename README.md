@@ -1,0 +1,3 @@
+# arduino_morse
+arduinoでPCから送られてきた信号を自動でモールス信号に変換する。
+PCからはPythonを使って送信する。
