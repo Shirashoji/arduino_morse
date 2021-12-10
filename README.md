@@ -4,6 +4,7 @@ PCからはPythonを使って送信する。
 
 ## 使い方
 `pip install -r requirements.txt` で必要なPythonのモジュールをインストールする。  
+4行目`/dev/cu.usbmodem14101` を適当に修正する。  
 ArduinoのGNDと10番のピンにLEDを繋ぐ。  
 `receiver/receiver.ino` をArduinoで実行する。  
 `morse_ transmitter.py` をPythonで実行する。  
