@@ -8,7 +8,7 @@ ArduinoのGNDと10番のピンにLEDを繋ぐ。
 `receiver/receiver.ino` をArduinoで実行する。  
 ### PC側
 `pip install -r requirements.txt` で必要なPythonのモジュールをインストールする。  
-`morse_ transmitter.py` の4行目 `/dev/cu.usbmodem14101` を適当に修正する。  
+`morse_transmitter.py` の4行目 `/dev/cu.usbmodem14101` を適当に修正する。  
 #### 文章を直接入力する場合
 `morse_ transmitter.py` をPythonで実行する。  
 Pythonを実行したら`TEXT: `と出てくるので、アルファベットでモールス信号にしたい文章を入力する。  
